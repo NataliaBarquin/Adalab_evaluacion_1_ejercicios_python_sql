@@ -257,7 +257,9 @@ SELECT MAX(`w`), MIN(`w`), `team_id`
 SELECT `team_id`, `team`
 	FROM `teams`
 	LIMIT 10;
--- Se han obtenido los 10 primeros resultados que aparecen en la tabla TEAMS por defecto. En caso de querer ordenarlos por ID o por NOMBRE, habría que definir ORDER BY debajo de FROM y encima de LIMIT, seguido del nombre de la columna que quisiéramos ordenar. 
+/* Se han obtenido los 10 primeros resultados que aparecen en la tabla TEAMS por defecto.
+En caso de querer ordenarlos por ID o por NOMBRE, habría que definir ORDER BY debajo de FROM y encima de LIMIT,
+seguido del nombre de la columna que quisiéramos ordenar. */
 
 SELECT *
 	FROM `stats`
